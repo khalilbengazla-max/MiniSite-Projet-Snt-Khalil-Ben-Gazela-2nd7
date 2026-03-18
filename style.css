@@ -1,0 +1,210 @@
+/* Design par Khalil Ben Gazela */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4 url('https://images.unsplash.com/photo-1493863641943-9b68992a8d07?q=80&w=2058&auto=format&fit=crop') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #222;
+}
+
+nav a {
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    background: #444;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+}
+
+h1 { color: #111; border-bottom: 2px solid #ddd; }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th { background-color: #eee; }
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8em;
+    background: #222;
+    color: #ccc;
+    margin-top: 50px;
+}/* Ajoute ces propriétés à ton fichier style.css existant */
+
+main {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5); /* Ombre portée pour donner du relief */
+    transition: transform 0.3s ease;
+}
+
+nav a {
+    transition: all 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover {
+    background: #fbbf24; /* Une touche d'ambre pour le contraste */
+    color: #000;
+    border-bottom: 3px solid #fff;
+}
+
+/* Style pour les cartes de la galerie */
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}/* Design Premium par Khalil Ben Gazela */
+:root {
+    --accent: #d4a373; /* Couleur sable/doré pour le côté photo */
+    --dark: #1a1a1a;
+    --light: #fdfcf0;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    margin: 0;
+    background: url('https://images.unsplash.com/photo-1452784444945-3f422708fe5e?q=80&w=2072') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px); /* Effet de flou moderne */
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+nav {
+    position: sticky; /* Le menu reste en haut au scroll */
+    top: 0;
+    background: var(--dark);
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    padding: 18px 25px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: var(--accent);
+    background: rgba(255,255,255,0.1);
+}
+
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 40px;
+    background: white;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    border-radius: 12px;
+}
+
+/* Style des tableaux "Humain" */
+table {
+    width: 100%;
+    margin: 30px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+th { background: var(--accent); color: white; padding: 15px; }
+td { padding: 12px; border-bottom: 1px solid #eee; }
+
+/* Images avec légende */
+.img-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    transition: transform 0.5s;
+}
+
+img:hover { transform: scale(1.01); }@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif; /* Remplace l'ancienne police */
+    letter-spacing: 0.5px; /* Un petit espacement entre les lettres fait très "luxe" */
+}button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #d4a373 !important; /* La couleur dorée quand on passe la souris */
+    transform: translateY(-3px); /* Le bouton se soulève légèrement */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}p {
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.8; /* Plus d'espace entre les lignes pour faciliter la lecture */
+}
+
+section {
+    margin-top: 50px; /* Espace bien tes différentes parties */
+}/* Barre de défilement personnalisée */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: #d4a373; border-radius: 5px; }
+::-webkit-scrollbar-thumb:hover { background: #1a1a1a; }
